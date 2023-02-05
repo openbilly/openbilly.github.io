@@ -128,11 +128,11 @@ pagination:
 # the information below.
 giscus:
   repo: openbilly/openbilly.github.io      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  repo_id: R_kgDOI55uNg
+  category: General             # name of the category under which discussions will be created
+  category_id: DIC_kwDOI55uNs4CUApM
   mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
+  strict: 0                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
@@ -140,7 +140,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+#disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
