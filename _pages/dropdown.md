@@ -10,4 +10,6 @@ children:
     - title: divider
     - title: Projects
       permalink: /projects/
+    - title: Twitter
+      permalink: https://twitter.com/home
 ---
