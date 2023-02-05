@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Billy
 middle_name:
-last_name: lee
+last_name: Lee
 email: openbilly@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  MY simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A personal website of a Sales Manager, related to Classical Chinese literature. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -115,8 +115,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name:  # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_nav_title: Articles # your blog must have a title for it to be displayed in the nav bar
+blog_description: 行有余力，则以学文；历之以事，自能成章。
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -146,9 +146,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -163,9 +163,27 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  reading:
+    defaults:
+      layout: post
+    output: true
+    permalink: /reading/:path/
+  analects:
+    defaults:
+      layout: post
+    output: true
+    permalink: /analects/:path/
+  timeline:
+    defaults:
+      layout: post
+    output: true
+    permalink: /timeline/:path/
 
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+news_limit: 10 # leave blank to include all the news in the `_news` folder
+
+timeline_scrollable: flase
+timeline_limit: 20
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
