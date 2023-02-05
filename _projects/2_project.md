@@ -9,8 +9,6 @@ category: Life
 
 ***
 
-Learning Notes of *The Analects*
-
 某生平多学夫子，拟将平日所学录以文字，名之曰《[论语学录](/analects/)》，以供方家雅正。
 
 非学术研究，如有雅致，可移玉步，读历代大儒之巨作：
