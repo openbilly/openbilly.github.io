@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Submenus
-nav: true
+nav: false
 nav_order: 60
-dropdown: false
+dropdown: true
 children:
     - title: The Analects
       permalink: /analects/
