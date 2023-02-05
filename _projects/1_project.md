@@ -26,7 +26,7 @@ My career is all about **Sales**, which I consider as the combination of science
     The aim of Personal MBA is to improve yourself.
 </div>
 
-As a bioengineering graduate, all my marketing knowledge was learned and summed up on the job. According to the <a href="https://en.wikipedia.org/wiki/70/20/10_Model_(Learning_and_Development))" target="_blank" rel="noopener noreferrer">70/20/10 Model (Learning and Development)]</a>, all I learned are from <a href="https://en.wikipedia.org/wiki/On-the-job_training" target="_blank" rel="noopener noreferrer">On-the-job training</a>:
+As a bioengineering graduate, all my marketing knowledge was learned and summed up on the job. According to the <a href="https://en.wikipedia.org/wiki/70/20/10_Model_(Learning_and_Development))" target="_blank" rel="noopener noreferrer">70/20/10 Model (Learning and Development)]</a>, all I learned is from <a href="https://en.wikipedia.org/wiki/On-the-job_training" target="_blank" rel="noopener noreferrer">On-the-job training</a>:
 
 - 70% from challenging assignments
 - 20% from developmental relationships
@@ -34,7 +34,7 @@ As a bioengineering graduate, all my marketing knowledge was learned and summed 
 
 There are still 30% I should learn from relationship & cousrework.
 
-Enrolling a MBA（Master of Business Administration) course is no doubt a very good method. In fact, the point is not about going into a classroom or opening a book before a desk, it dosen't matter. It do matter you giving our effort to learn. This is the point.
+Enrolling a MBA（Master of Business Administration) course is no doubt a very good method. In fact, the point is not about going into a classroom or opening a book before a desk, it dosen't matter. It do matter we giving our effort in learning. This is the point.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
