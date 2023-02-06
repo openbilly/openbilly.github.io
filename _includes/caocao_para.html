@@ -1,3 +1,4 @@
+<!-- 注释此处
 <ul class="card-text font-weight-light list-group list-group-flush">
 
         <ul class="subitems" style="list-style-type:none">
@@ -8,3 +9,7 @@
 
 
 </ul>
+注释此处 -->
+{% for subitem in entry.paragraphs %}
+<span class="subitem">{{ subitem }}<br></span>
+{% endfor %}
