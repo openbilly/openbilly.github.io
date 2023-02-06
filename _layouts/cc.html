@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% for entry in site.data.caocao %}
+    {%- assign title = entry.title -%}
+    {%- assign paragraphs = entry.paragraphs -%}
+    <h1 class="post-title">{{ title }}</h1>
+    <article class="post-content">
+      {{ paragraphs }}
+    </article>
+{% endfor %}
