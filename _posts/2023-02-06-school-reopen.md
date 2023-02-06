@@ -6,6 +6,10 @@ description:
 tags: 七绝
 categories: Poem
 ---
+- 春回大地万物苏
+- 开学当把懒习除
+- 小子若是读书人
+- 老翁自会将汝扶
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -18,8 +22,3 @@ categories: Poem
 <div class="caption">
     开学日大雾
 </div>
-
-- 春回大地万物苏
-- 开学当把懒习除
-- 小子若是读书人
-- 老翁自会将汝扶
