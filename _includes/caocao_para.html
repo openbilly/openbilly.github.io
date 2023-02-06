@@ -1,8 +1,8 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
 
-        <ul class="no-bullet">
+        <ul class="subitems">
           {% for subitem in entry.paragraphs %}
-            <li><span class="no-bullet">{{ subitem }}</span></li>
+            <li list-style: none><span class="subitem">{{ subitem }}</span></li>
           {% endfor %}
         </ul>
 
