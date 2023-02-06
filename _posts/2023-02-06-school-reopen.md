@@ -6,10 +6,10 @@ description: 春回大地万物苏...Spring back...
 tags: 七绝 春雨
 categories: Poem
 ---
-- 春回大地万物苏
-- 开学当把懒习除
-- 小子若是读书人
-- 老翁自会将汝扶
+春回大地万物苏  
+开学当把懒习除  
+小子若是读书人  
+老翁自会将汝扶
 
 Spring back to earth all things are beginning to reborn  
 When school starts, get rid of laziness  
