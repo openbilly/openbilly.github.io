@@ -2,7 +2,7 @@
 layout: post
 title:  开学日大雾
 date: 2023-02-04
-description:
+description: 春回大地万物苏...
 tags: 七绝
 categories: Poem
 ---
