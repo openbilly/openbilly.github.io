@@ -1,7 +1,5 @@
 ---
 layout: default
-paginate: 5
-paginate_path: "/caocao/page:num/"
 ---
 
 
@@ -11,7 +9,6 @@ paginate_path: "/caocao/page:num/"
             <p class="post-description">{{ page.description }}</p>
           </header>
           <article>
-            {% for post in paginator.posts %}
             <div class="caocao">
               {% for entry in site.data.caocao %}
                 <div class="card mt-3 p-3">
@@ -22,6 +19,5 @@ paginate_path: "/caocao/page:num/"
                 </div>
               {% endfor %}
               </div>
-            {% endfor %}
           </article>
         </div>

@@ -1,7 +1,7 @@
 ---
 layout: caocao
 permalink: /caocao/
-title: caocao
-nav: true
+title: Caocao
+nav: false
 nav_order: 40
 ---
