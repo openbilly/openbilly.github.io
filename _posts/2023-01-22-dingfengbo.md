@@ -4,7 +4,7 @@ title:  定风波
 date:   2023-01-22
 description:
 tags: 定风波
-categories: poem
+categories: Poem
 ---
 
 春雨润物西复东。  
