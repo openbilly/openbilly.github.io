@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- _layouts/caocao.html -->
+        <div class="post">
+
+          <header class="post-header">
+
+            <p class="post-description">{{ page.description }}</p>
+          </header>
+
+          <article>
+            <div class="caocao">
+              {% for entry in site.data.caocao %}
+                <div class="card mt-3 p-3">
+                  <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+                  <div>
+                    {{ entry.paragraphs }}
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+          </article>
+
+        </div>
