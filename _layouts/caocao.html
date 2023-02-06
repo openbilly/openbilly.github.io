@@ -1,15 +1,25 @@
 ---
 layout: default
+title: caoc
+pagination:
+  enabled: true
+  collection: posts
+  permalink: /page/:num/
+  per_page: 8
+  sort_field: date
+  sort_reverse: true
+  trail:
+    before: 1 # The number of links before the current page
+    after: 3  # The number of links after the current page
+---
 ---
 <!-- _layouts/caocao.html -->
         <div class="post">
-
           <header class="post-header">
-
             <p class="post-description">{{ page.description }}</p>
           </header>
-
           <article>
+            {% for post in paginator.posts %}
             <div class="caocao">
               {% for entry in site.data.caocao %}
                 <div class="card mt-3 p-3">
@@ -21,5 +31,5 @@ layout: default
               {% endfor %}
               </div>
           </article>
-
+          {% include pagination.html %}
         </div>
