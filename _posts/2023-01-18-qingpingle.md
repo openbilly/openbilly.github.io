@@ -17,7 +17,7 @@ categories: Poem
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2023-01-18-1.jpg" title=post.title class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/2023-01-18-1.jpg" title=title class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/2023-01-18-2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
