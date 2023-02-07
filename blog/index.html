@@ -47,6 +47,7 @@ pagination:
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
 
+
     <li>
       <h3>
         {% if post.redirect == blank %}
@@ -63,6 +64,19 @@ pagination:
         {% endif %}
       </h3>
       <p>{{ post.description }}</p>
+
+
+<!-- add pic in the blog post list -->
+      {% if post.img %}
+        <div class="col-sm-4 mt-3 mt-md-0">
+          {% include figure.html path="{{ post.img }}" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+      {% endif %}
+<!-- add pic in the blog post list -->
+
+
+
+
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %-d, %Y' }}
