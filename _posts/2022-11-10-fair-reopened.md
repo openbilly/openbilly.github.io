@@ -20,6 +20,6 @@ img: assets/img/2022-11-10-1.jpg
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2022-11-10-1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/2022-11-10-1.jpg"  class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
