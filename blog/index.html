@@ -63,13 +63,13 @@ pagination:
           {% endif %}
         {% endif %}
       </h3>
-      <p>{{ post.description }}</p>
+      <p>{{ post.description }}...</p>
 
 
 <!-- add pic in the blog post list -->
       {% if post.img %}
         <div class="col-sm-4 mt-3 mt-md-0">
-          {% include figure.html path=post.img title="example image" class="img-fluid rounded z-depth-1" %}
+          <a href="{{ post.redirect | relative_url }}">{% include figure.html path=post.img title="example image" class="img-fluid rounded z-depth-1" %}</a>
         </div>
       {% endif %}
 <!-- add pic in the blog post list -->
