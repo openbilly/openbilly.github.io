@@ -163,30 +163,15 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  reading:
-    defaults:
-      layout: post
-    output: true
-    permalink: /reading/:path/
-  analects:
-    defaults:
-      layout: post
-    output: true
   lunyu:
     defaults:
       layout: lunyu
     output: true
-  timeline:
-    defaults:
-      layout: post
-    output: true
-    permalink: /timeline/:path/
+
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 10 # leave blank to include all the news in the `_news` folder
 
-timeline_scrollable: flase
-timeline_limit: 20
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
