@@ -52,13 +52,6 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- News -->
-          {% if page.timeline -%}
-            <h2><a href="{{ '/timeline/' | relative_url }}" style="color: inherit;">Timeline</a></h2>
-            {%- include timeline.html %}
-          {%- endif %}
-
-
           <!-- Social -->
           {%- if page.social %}
             <div class="social">

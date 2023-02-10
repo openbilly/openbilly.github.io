@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!-- lunyu.html -->
+
+<div class="lunyu">
+  <div class="card mt-3 p-3">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-description">{{ page.description }}</p>
+    </header>
+    <div class="post card-text font-weight-light list-group list-group-flush">
+      {% for entry in site.data.lunyu %}
+        {% if entry.chapter == page.section %}
+          {% assign i = 1 %}
+          {% for paragraph in entry.paragraphs %}
+            {% if i == page.section_no %}
+              <blockquote>
+                <span class="subitem">{{ paragraph }}</span><br><br>
+                ——《论语》 - {{ page.section }}：{{page.section_no}}
+              </blockquote>
+
+<!-- 测试 capture 函数
+              {% capture paragraph_to_title %}{{ paragraph }}{% endcapture %}
+              {{ paragraph_to_title }}
+-->
+            {% endif %}
+            {% assign i = i | plus: 1 %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <article>{{ content }}</article>
+  </div>
+</div>

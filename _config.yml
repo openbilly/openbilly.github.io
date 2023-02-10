@@ -172,7 +172,10 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /analects/:path/
+  lunyu:
+    defaults:
+      layout: lunyu
+    output: true
   timeline:
     defaults:
       layout: post
@@ -363,6 +366,8 @@ enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
+enable_analects_sections:   true   # enables sections of 论语（analects） into multiple section
+enable_lunyu_sections:      ture
 
 # -----------------------------------------------------------------------------
 # Library versions
