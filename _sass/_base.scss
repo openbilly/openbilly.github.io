@@ -330,12 +330,12 @@ footer.sticky-bottom {
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  text-align: left;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 1rem;
   }
 }
 
@@ -362,10 +362,10 @@ footer.sticky-bottom {
   margin-bottom: 40px;
   padding: 0;
   li {
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: 1px dashed var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.0rem;
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
