@@ -8,4 +8,6 @@ children:
     - title: 论语学录
       permalink: /lunyu/
     - title: divider
+    - title: 曹孟德诗集
+      permalink: /caocao/
 ---
