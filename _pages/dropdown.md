@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Submenus
-nav: false
+title: Classicality
+nav: true
 nav_order: 60
 dropdown: true
 children:
-    - title: The Analects
-      permalink: /analects/
+    - title: 论语学录
+      permalink: /lunyu/
     - title: divider
-    - title: Projects
-      permalink: /projects/
 ---

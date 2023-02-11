@@ -3,7 +3,7 @@ layout: page
 title: 论语学录
 permalink: /lunyu/
 description: 论语之学，录以文字，以求方家雅正，更为三省吾身。
-nav: true
+nav: false
 nav_order: 13
 display_sections: [学而篇, 为政篇, 八佾篇, 里仁篇, 公冶长篇, 雍也篇, 述而篇, 泰伯篇, 子罕篇, 乡党篇, 先进篇, 颜渊篇, 子路篇, 宪问篇, 卫灵公篇, 季氏篇, 阳货篇, 微子篇, 子张篇, 尧曰篇]
 ---
