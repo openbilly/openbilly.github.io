@@ -42,8 +42,8 @@ layout: default
   <article class="post-content">
     {{ content }}
     <div class="post-tags">
-      {%- if page.previous %}<li><span class="post-tags"><i class="fa fa-envelope-open-text"></i>&nbsp;Previous Article:&nbsp;</span><a href="{{ page.previous.url | prepend: site.baseurl}}">{{ page.previous.title }}</a></li>{% endif %}
-      {%- if page.next %}<li><span class="post-tags"><i class="fa fa-envelope-open-text"></i>&nbsp;Next Article:&nbsp;</span><a href="{{ page.next.url | prepend: site.baseurl}}">{{ page.next.title }}</a></li>{% endif %}
+      {%- if page.previous %}<li><a href="{{ page.previous.url | prepend: site.baseurl}}"><span class="post-tags"><i class="fa fa-envelope-open-text"></i>&nbsp;Previous Article:&nbsp;</span>{{ page.previous.title }}</a></li>{% endif %}
+      {%- if page.next %}<li><a href="{{ page.next.url | prepend: site.baseurl}}"><span class="post-tags"><i class="fa fa-envelope-open-text"></i>&nbsp;Next Article:&nbsp;</span>{{ page.next.title }}</a></li>{% endif %}
     </div>
   </article>
 
