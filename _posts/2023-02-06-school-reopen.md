@@ -5,6 +5,7 @@ date: 2023-02-06
 description: 春回大地万物苏...Spring back...
 tags: 七绝 春雨
 categories: Poem
+giscus_comments: true
 ---
 春回大地万物苏  
 开学当把懒习除  

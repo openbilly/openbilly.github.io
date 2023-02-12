@@ -5,7 +5,7 @@ date:   2022-11-10
 description: 久违的赶集...
 tags: 市井
 categories: Essay
-img: assets/img/2022-11-10-1.jpg
+giscus_comments: true
 ---
 
 久违的赶集趁墟，在后封控时代，终于迎来重启。
