@@ -44,8 +44,8 @@ social: true  # includes social icons at the bottom of the page
 
 西历二零二三年首，诚举此 Personal Website，一求展示所学所用，二望更多国人同朋共师，以续圣学。
 
-***
-
 古典文化之论述注解，自古至今，可谓汗牛充屋，某不敢贸然东施效颦、邯郸学步，以免班门弄斧，徒遗笑耳。
 
 此站多以自我工作相关为主题，兴趣驱动，以供诸位一笑。
+
+***
