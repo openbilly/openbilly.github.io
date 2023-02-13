@@ -45,7 +45,7 @@ layout: default
   {% assign i = 1 %}
   {%- for post in site.posts %}
     {% if i <= 5 %}
-      <li><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B %-d, %Y' }}: {{ post.title }}</a>
+      <li><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B %-d, %Y' }}: <i class="fas fa-tag fa-sm"></i>{{ post.categories }}{{ post.title }}</a>
     {%- endif %}
     {% assign i = i | plus: 1 %}
   {%- endfor %}</li>
