@@ -40,6 +40,17 @@ layout: default
             {{ content }}
           </div>
 
+<h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Articles</a></h2>
+<ul class="post-list">
+  {% assign i = 1 %}
+  {%- for post in site.posts %}
+    {% if i <= 5 %}
+      <li><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B %-d, %Y' }}: {{ post.title }}</a>
+    {%- endif %}
+    {% assign i = i | plus: 1 %}
+  {%- endfor %}</li>
+</ul>
+
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
@@ -51,7 +62,6 @@ layout: default
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
-
 
           <!-- Social -->
           {%- if page.social %}
