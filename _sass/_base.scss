@@ -357,6 +357,24 @@ footer.sticky-bottom {
   }
 }
 
+.category-list {
+  border-bottom: 1px dashed var(--global-divider-color);
+  text-align: left;
+  padding-top: 1rem;
+
+  ul {
+    justify-content: left;
+    display: flow-root;
+
+    p, li {
+      list-style: none;
+      display: inline-block;
+      padding: 0rem 0.0rem;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;

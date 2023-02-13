@@ -248,6 +248,7 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 # display_tags: ['Poem', 'Essay', 'Sales', 'Marketing' ] # this tags will be dispalyed on the front page of your blog
+display_categories: ['Poem', 'Essay', 'Tools' ]
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
