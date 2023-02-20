@@ -3,7 +3,7 @@ layout: post
 title: 祝贺诸君兔年大吉兔气扬眉
 date:   2023-01-21
 description:
-tags: 七律 春节 除夕
+tags: 春节 除夕
 categories: Poem
 giscus_comments: true
 ---

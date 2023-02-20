@@ -3,7 +3,7 @@ layout: post
 title:  开学日大雾
 date: 2023-02-06
 description: 春回大地万物苏...Spring back...
-tags: 七绝 春雨
+tags: 春雨
 categories: Poem
 giscus_comments: true
 ---
