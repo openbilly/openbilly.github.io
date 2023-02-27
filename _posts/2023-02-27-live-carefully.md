@@ -4,7 +4,7 @@ title: 謹小慎微
 date: 2023-02-27
 description:
 tags: 修身
-categories: Assay
+categories: Essay
 giscus_comments: true
 ---
 信陵君竊符救趙後，趙王自迎於郊，不可不謂有大德於趙。  
