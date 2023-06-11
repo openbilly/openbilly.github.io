@@ -50,8 +50,13 @@ Enrolling a MBA（Master of Business Administration) course is no doubt a very g
 
 So I launch this project to organize all my understanding of business administration. Before I started, I searched and browsed through some relevant materials and found that there is corresponding website <a href="https://personalmba.com" target="_blank" rel="noopener noreferrer">The Personal MBA</a>. I'll take it as one of my guidebooks.
 
-### Reading list
+## Reading list
 
+### Sales
 - [x] The Little Red Book of Selling - Jeffrey Gitomer
 - [x] Get Sh*t Done - Jeffrey Gitomer
 - [x] Sales Bible - Jeffery Gitomer
+- [x] SPIN Selling - Neil Rackham
+
+### Influence
+- [x] Influence: The Psychology of Persuasion – Robert B. Cialdini
