@@ -55,7 +55,7 @@ So I launch this project to organize all my understanding of business administra
 ### Sales
 - [x] The Little Red Book of Selling - Jeffrey Gitomer
 - [x] Get Sh*t Done - Jeffrey Gitomer
-- [x] Sales Bible - Jeffery Gitomer
+- [] Sales Bible - Jeffery Gitomer
 - [x] SPIN Selling - Neil Rackham
 
 ### Influence
