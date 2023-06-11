@@ -49,3 +49,8 @@ Enrolling a MBA（Master of Business Administration) course is no doubt a very g
 </div>
 
 So I launch this project to organize all my understanding of business administration. Before I started, I searched and browsed through some relevant materials and found that there is corresponding website <a href="https://personalmba.com" target="_blank" rel="noopener noreferrer">The Personal MBA</a>. I'll take it as one of my guidebooks.
+
+### Reading list
+
+[*] The Little Red Book of Selling    
+[*] Get Sh*t Done
