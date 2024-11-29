@@ -15,8 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-某从事 B2B **销售**及相关工作，历经二十载。  
-服务多家跨国企业，以开拓业务为主，对开发**大客户**、**销售管理**等深刻理解，小有所成。
+2024年中段，开始了自己的创业生涯，服务于原料、技术供应。。
 
 - 生于南海之滨，  
 - 学于京都学府，  
